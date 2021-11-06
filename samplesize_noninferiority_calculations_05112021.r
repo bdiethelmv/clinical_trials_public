@@ -114,7 +114,7 @@ n_probs_ve0.5 <- n_probs_ve0.5[-indices]
 n_probs_ve0.5
 probs <- c(0.05,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1)
 
-efficacy <- ggplot() + geom_point(alpha=0.75, data=sampsize, aes(x=eficacia, y=p0.5), 
+efficacy <- ggplot() + geom_point(alpha=0.75, data=sampsize, aes(x=ves, y=p_0.5), 
                       size=I(4), col='salmon')+
   labs(x='Eficacia de la vacuna en estudio (1-HR)', 
        y='Tamaño de muestra (participantes por grupo)',
